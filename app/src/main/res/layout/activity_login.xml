@@ -1,0 +1,78 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#FFFEFB"
+    tools:context=".Activities.LoginActivity">
+
+
+
+    <RelativeLayout
+        android:id="@+id/padd"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:padding="15dp">
+
+        <com.google.android.material.textfield.TextInputLayout
+            android:id="@+id/emailGRPP"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_centerHorizontal="true"
+            android:layout_centerVertical="true">
+
+            <EditText
+                android:id="@+id/emailmm"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:hint="Email"
+                android:inputType="textEmailAddress" />
+        </com.google.android.material.textfield.TextInputLayout>
+
+        <com.google.android.material.textfield.TextInputLayout
+            android:id="@+id/passwordGRPP"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_below="@id/emailGRPP"
+            android:layout_centerHorizontal="true"
+            android:layout_centerVertical="true"
+            app:passwordToggleEnabled="true">
+
+            <EditText
+                android:id="@+id/passwordmm"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:hint="Password"
+                android:inputType="textPassword" />
+        </com.google.android.material.textfield.TextInputLayout>
+
+        <Button
+            android:id="@+id/login_Butt"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_below="@id/passwordGRPP"
+            android:layout_centerHorizontal="true"
+            android:text="Login" />
+
+
+        <TextView
+            android:id="@+id/dont_have"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_below="@+id/login_Butt"
+            android:layout_marginTop="10dp"
+            android:text="Don't have an account? Sign Up Here"
+            android:textAlignment="center"
+            android:textColor="#000000" />
+
+        <ImageView
+            android:id="@+id/imageTT"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_below="@+id/dont_have"
+            android:src="@color/white" />
+    </RelativeLayout>
+
+
+</RelativeLayout>

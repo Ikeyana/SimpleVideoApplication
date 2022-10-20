@@ -1,0 +1,48 @@
+{
+  "project_info": {
+    "project_number": "256925347127",
+    "firebase_url": "https://videomeetapplication-default-rtdb.firebaseio.com",
+    "project_id": "videomeetapplication",
+    "storage_bucket": "videomeetapplication.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:256925347127:android:a4f6383bfe5b424f637eb2",
+        "android_client_info": {
+          "package_name": "com.example.videoapplication"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "256925347127-c60v9ogst3cqv529bk9kb1gg9ui334f7.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "com.example.videoapplication",
+            "certificate_hash": "4790ff7600241e50e24483e4b319343595f4cc92"
+          }
+        },
+        {
+          "client_id": "256925347127-bphj4g9a707jb76s1j7a4k30t4ckae6k.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyBBr1fPh4z6NgOhySewK18nlxdavl27nRM"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "256925347127-bphj4g9a707jb76s1j7a4k30t4ckae6k.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
